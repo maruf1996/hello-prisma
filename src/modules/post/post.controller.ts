@@ -82,6 +82,7 @@ const learnAggregateAndGrouping = async (req: Request, res: Response) => {
       data: result,
     });
   } catch (err) {
+    console.log(err);
     res.send(err);
   }
 };
